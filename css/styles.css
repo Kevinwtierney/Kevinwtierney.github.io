@@ -3,8 +3,9 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
+    background-color: #000;
     color: #fff;
+   text-align: center;
 }
 
 h1 {
@@ -36,6 +37,11 @@ p {
 
 /* Navigation Bar */
 
+.logo {
+    width: 25%;
+    margin: 10px 10px 20px;
+}
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -54,6 +60,11 @@ p {
     font-size: 1.2rem;
     font-family: "Montserrat";
     font-weight: 300;
+    color: #ca4c3c !important;
+    
+}
+.nav-link:hover {
+    color: #ef8172 !important;
 }
 
 /* Download Buttons */
@@ -66,21 +77,21 @@ p {
 
 .title-image {
     width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
+    /* transform: rotate(-15deg); */
+    /* position: absolute; */
     right: 30%;
 }
 
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
+    padding: 5% 15%;
     background-color: #fff;
     position: relative;
 }
 
 .feature-box {
-    padding: 4.5%;
+    padding: 3%;
     text-align: center;
 }
 
@@ -137,7 +148,7 @@ p {
 
 #cta {
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #000;
     color: #fff;
     padding: 7% 15%;
 }
@@ -160,9 +171,13 @@ p {
     margin: 20px 10px;
 }
 
+#privacy{
+    padding: 7% 15%;
+}
+
 /* media querys */
 
-@media (max-width: 1028px) {
+@media (max-width: 1000px) {
     .title-image {
         position: static;
         transform: rotate(0);
